@@ -11,7 +11,7 @@ class Rocket{
         this.width = 40;
         this.height = 100;
         
-        this.image = loadImage("./images/Rocket.png");
+        this.image = loadImage("./images/Rocket.jpg");
         World.add(world,this.body);
     }
     display(){
